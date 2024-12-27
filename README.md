@@ -27,11 +27,11 @@ Proyek ini adalah sebuah aplikasi frontend yang dibangun dengan React.js dan ter
 ---
 
 ## **Tech Stack**
-- **Frontend Framework**: React.js
+- **Frontend Framework**: React.js with Vite
 - **HTTP Client**: Axios
-- **Routing**: React Router
+- **Routing**: React Router v7
+- **UI Framework**: Tailwind CSS
 - **API**: Reqres (https://reqres.in/)
-- **Deployment**: Vercel / Netlify
 
 ---
 
@@ -39,7 +39,7 @@ Proyek ini adalah sebuah aplikasi frontend yang dibangun dengan React.js dan ter
 
 ### **1. Clone Repository**
 ```bash
-git clone https://github.com/username/repo-name.git
+git clone https://github.com/farismasud/dibimbing-miniproject-LoginRegister.git
 cd repo-name
 ```
 
@@ -53,11 +53,6 @@ npm install
 npm run dev
 ```
 Aplikasi akan berjalan di `http://localhost:3000`.
-
-### **4. Build untuk Produksi**
-```bash
-npm run build
-```
 
 ---
 
@@ -87,7 +82,5 @@ Berikut adalah daftar endpoint dari API Reqres yang digunakan:
    - Halaman login dengan validasi token.
 3. **List Users**
    - Tabel daftar pengguna dengan pagination.
-4. **Detail User**
+4. **Single User**
    - Informasi detail pengguna berdasarkan ID.
-
-
